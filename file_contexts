@@ -107,6 +107,7 @@
 /data/misc/sensors(/.*)?               u:object_r:sensors_vendor_data_file:s0
 /data/vendor/nfc(/.*)?                 u:object_r:nfc_vendor_data_file:s0
 /data/vendor/time(/.*)?                       u:object_r:timekeep_vendor_data_file:s0
+/data/time/ats_2(/.*)?                 u:object_r:timekeep_vendor_data_file:s0
 
 # input files
 /vendor/usr/idc(/.*)?                  u:object_r:idc_file:s0

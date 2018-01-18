@@ -133,3 +133,6 @@
 /persist/hlos_rfs(/.*)?   u:object_r:persist_rfs_file:s0
 /persist/rfs(/.*)?        u:object_r:persist_rfs_file:s0
 /persist/sensors(/.*)?    u:object_r:persist_sensors_file:s0
+
+# touch clearpad
+/sys/devices/virtual/input/input([0-9])?/wakeup_gesture    u:object_r:sysfs_touch:s0

@@ -1,0 +1,7 @@
+type uartserializer, domain;
+type uartserializer_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(uartserializer)
+
+allow uartserializer socket_device:sock_file setattr;
+allow uartserializer uhid_device:chr_file w_file_perms;

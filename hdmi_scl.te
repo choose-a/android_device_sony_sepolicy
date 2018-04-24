@@ -1,0 +1,7 @@
+type hdmi_scl, domain;
+type hdmi_scl_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(hdmi_scl)
+
+allow hdmi_scl socket_device:dir { add_name write };
+allow hdmi_scl socket_device:sock_file create;

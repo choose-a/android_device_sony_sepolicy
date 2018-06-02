@@ -75,8 +75,10 @@
 /(system/vendor|vendor)/bin/initlight                                                        u:object_r:initlight_exec:s0
 /(system/vendor|vendor)/bin/ucommsvr                                                         u:object_r:ucommsvr_exec:s0
 /(system/vendor|vendor)/bin/cashsvr                                                          u:object_r:cashsvr_exec:s0
+/(system/vendor|vendor)/bin/sim_variant                                                      u:object_r:sim_variant_exec:s0
 /(system/vendor|vendor)/bin/thermanager                                                      u:object_r:thermanager_exec:s0
 /(system/vendor|vendor)/bin/timekeep                                                         u:object_r:timekeep_exec:s0
+/(system/vendor|vendor)/bin/variants\.sh                                                     u:object_r:variants-sh_exec:s0
 /(system/vendor|vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.sony u:object_r:hal_fingerprint_default_exec:s0
 /(system/vendor|vendor)/bin/hw/android\.hardware\.gnss@1\.0-service-qti                      u:object_r:hal_gnss_qti_exec:s0
 /(system/vendor|vendor)/bin/hw/android\.hardware\.light@2\.0-service\.sony                   u:object_r:hal_light_default_exec:s0

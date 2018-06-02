@@ -1,0 +1,5 @@
+type variants, domain;
+type variants_exec, exec_type, vendor_file_type, file_type;
+
+allow variants variants_vendor_data_file:dir create_dir_perms;
+allow variants variants_vendor_data_file:file create_file_perms;
